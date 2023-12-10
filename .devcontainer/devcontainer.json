@@ -1,0 +1,15 @@
+{
+    "name": "F# (.NET)",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0-bookworm",
+
+    "customizations": {
+        "vscode": {		
+            "extensions": [
+                "Ionide.Ionide-fsharp",
+                "ms-dotnettools.csharp"
+            ]
+        }
+    },
+
+    "postCreateCommand": ".devcontainer/postCreateCommand.sh"
+}
