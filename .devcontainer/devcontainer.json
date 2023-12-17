@@ -5,8 +5,8 @@
     "customizations": {
         "vscode": {		
             "extensions": [
-                "Ionide.Ionide-fsharp",
-                "ms-dotnettools.csharp"
+                "ms-dotnettools.csharp",
+                "Ionide.Ionide-fsharp"
             ]
         }
     },
